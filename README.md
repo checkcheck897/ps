@@ -55,13 +55,13 @@ Qualification Round : 25th place
 
 Final Round : 89th place
 
-#### International Collegiate Programming Contest (ACM-ICPC)
+### International Collegiate Programming Contest (ACM-ICPC)
 
 Team : GreenBelt
 
 Qualification Round : 30th place
 
-### Seoul Regional : 16th place (후원사 특별상/PUBG)
+#### Seoul Regional : 16th place (후원사 특별상/PUBG)
 
 
 ### Samsung Collegiate Programming Cup (SCPC)
