@@ -17,16 +17,17 @@ int main(){
     int t;
     cin >> t;
     while(t--) {
-        ll n;
-        cin >> n;
-        ll a[2*n];
-        ll odd = 0;
-        for (int i=0; i<2*n; i++) {
-            cin >> a[i];
-            if (a[i]%2) odd++;
+        ll n, a, b;
+        cin >> n >> a >> b;
+        ll k = 1;
+        bool check = 0;
+        if (k%b == n%b) check = 1;
+        while (a != 1 && k <= n) {
+            if (k%b == n%b) check = 1;
+            k *= a;
         }
-        if (odd%2) cout << "YES";
-        else cout << "NO";
+        if (check) cout << "Yes";
+        else cout << "No";
         cout << '\n';
     }
 

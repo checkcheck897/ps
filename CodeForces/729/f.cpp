@@ -19,14 +19,6 @@ int main(){
     while(t--) {
         ll n;
         cin >> n;
-        ll a[2*n];
-        ll odd = 0;
-        for (int i=0; i<2*n; i++) {
-            cin >> a[i];
-            if (a[i]%2) odd++;
-        }
-        if (odd%2) cout << "YES";
-        else cout << "NO";
         cout << '\n';
     }
 

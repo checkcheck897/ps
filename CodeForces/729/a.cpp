@@ -25,8 +25,8 @@ int main(){
             cin >> a[i];
             if (a[i]%2) odd++;
         }
-        if (odd%2) cout << "YES";
-        else cout << "NO";
+        if (odd==n) cout << "Yes";
+        else cout << "No";
         cout << '\n';
     }
 
